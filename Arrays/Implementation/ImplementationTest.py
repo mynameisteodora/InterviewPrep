@@ -15,4 +15,8 @@ if __name__ == "__main__":
     # Observe what happens to the array when we insert a new element
     myArray.insert(452, 2)
 
+    # Delete an element
+    myArray.delete(3)
+    myArray.show()
+
 
