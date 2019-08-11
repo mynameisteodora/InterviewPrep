@@ -20,6 +20,7 @@ class Array:
         else:
             # We don't have space anymore and we need to create a bigger array and copy over all the elements
             new_array = [None] * (self.length + 1)
+            # Test
 
             for i in range(index):
                 new_array[i] = self.internal_array[i]
