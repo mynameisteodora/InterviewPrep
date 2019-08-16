@@ -8,29 +8,24 @@ Example:
     Output: Pair found at indices (0, 2)
 """
 
-if __name__ == "__main__":
 
-    lst = input("Enter your list of integers, separated by a comma: \n")
-    lst = list(map(int, lst.split(",")))
+class FindPairWithGivenSum:
 
-    target_sum = int(input("Enter the target sum: \n"))
-    print(target_sum)
+    def __init__(self, input_list, expected_sum):
+        self.input_list = input_list
+        self.expected_sum = expected_sum
 
-
-    def naive_solution():
+    def naive_solution(self):
         # This takes O(n^2)
 
-        for i in range(len(lst)):
-            for j in range(i, len(lst)):
-                if lst[i] + lst[j] == target_sum:
+        for i in range(len(self.input_list)):
+            for j in range(i, len(self.input_list)):
+                if self.input_list[i] + self.input_list[j] == self.expected_sum:
                     return i, j
 
         return "Pair not found :("
 
-
-    print("Pair found at indices: ", naive_solution())
-
-    def better_solution():
+    def better_solution(self):
         """
         Time complexity: O(nlogn) 
         We sort the array and we keep two indices, 
@@ -44,6 +39,7 @@ if __name__ == "__main__":
         :return: 
         """""
 
+        lst = self.input_list.copy()
         lst.sort()
         high_idx = len(lst) - 1
         low_idx = 0
@@ -51,18 +47,16 @@ if __name__ == "__main__":
         while low_idx < high_idx:
             curr_sum = lst[low_idx] + lst[high_idx]
 
-            if curr_sum < target_sum:
+            if curr_sum < self.expected_sum:
                 low_idx += 1
-            elif curr_sum > target_sum:
+            elif curr_sum > self.expected_sum:
                 high_idx -= 1
             else:
                 return "Pair found!"
 
         return "Pair not found :("
 
-    print(better_solution())
-
-    def best_solution():
+    def best_solution(self):
         """
         Time complexity: O(n)
         Space complexity: O(n)
@@ -73,16 +67,26 @@ if __name__ == "__main__":
         """
         hash_map = dict()
 
-        for i in range(len(lst)):
-            if lst[i] not in hash_map.keys():
-                hash_map[lst[i]] = i
+        for i in range(len(self.input_list)):
+            if self.input_list[i] not in hash_map.keys():
+                hash_map[self.input_list[i]] = i
 
-            if target_sum-lst[i] in hash_map.keys():
-                return i, hash_map[target_sum-lst[i]]
+            if self.expected_sum - self.input_list[i] in hash_map.keys():
+                return i, hash_map[self.expected_sum - self.input_list[i]]
 
         return "Pair not found :("
 
-    print(best_solution())
 
+if __name__ == "__main__":
 
+    lst = input("Enter your list of integers, separated by a comma: \n")
+    lst = list(map(int, lst.split(",")))
 
+    target_sum = int(input("Enter the target sum: \n"))
+    sol = FindPairWithGivenSum(lst, target_sum)
+
+    print("Naive solution: ", sol.naive_solution())
+
+    print("Better solution: ", sol.better_solution())
+
+    print("Best solution: ", sol.best_solution())
