@@ -26,6 +26,7 @@ class FindPairWithGivenSum:
         return "Pair not found :("
 
     def better_solution(self):
+
         """
         Time complexity: O(nlogn) 
         We sort the array and we keep two indices, 
