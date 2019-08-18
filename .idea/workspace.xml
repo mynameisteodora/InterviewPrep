@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07e8b056-0721-41f9-a285-b57cd5032d70" name="Default Changelist" comment="j">
-      <change afterPath="$PROJECT_DIR$/Arrays/Problems/FindPairWithGivenSumTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/InterviewPrep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/InterviewPrep.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/Problems/SubArraysWithGivenSum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/Problems/FindPairWithGivenSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/Problems/FindPairWithGivenSum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -56,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for FindPairWithGivenSumTest.MyTestCase">
+  <component name="RunManager" selected="Python.SubArraysWithGivenSum">
     <configuration name="FindPairWithGivenSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="InterviewPrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ImplementationTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SubArraysWithGivenSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="InterviewPrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,12 +84,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Arrays/Implementation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Arrays/Problems" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arrays/Implementation/ImplementationTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arrays/Problems/SubArraysWithGivenSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SubArraysWithGivenSum" />
         <item itemvalue="Python tests.Unittests for FindPairWithGivenSumTest.MyTestCase" />
         <item itemvalue="Python tests.Unittests for FindPairWithGivenSumTest.MyTestCase.test_better_solution" />
         <item itemvalue="Python tests.Unittests for FindPairWithGivenSumTest.MyTestCase.test_naive_solution" />
         <item itemvalue="Python.FindPairWithGivenSum" />
-        <item itemvalue="Python.ImplementationTest" />
       </list>
     </recent_temporary>
   </component>
