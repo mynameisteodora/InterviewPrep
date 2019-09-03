@@ -1,4 +1,8 @@
+from queue import Queue
+
 class BinaryTree:
+
+    bfs_queue = Queue()
 
     def __init__(self, rootObj):
         self.key = rootObj
@@ -67,6 +71,19 @@ class BinaryTree:
         # 3) Height of left subtree + height of right subtree +1
         return max(lheight + rheight + 1, max(ldiameter, rdiameter))
 
+    def breadth_first_traversal(self, tree):
+        q = Queue()
+        q.put(tree)
+
+        while(not q.empty()):
+            e = q.get()
+            print(e.getRootVal())
+            if(e.leftChild != None):
+                q.put(e.leftChild)
+            if(e.rightChild != None):
+                q.put(e.rightChild)
+
+
 if __name__ == '__main__':
     tree = BinaryTree('a')
     tree.insertLeft('b')
@@ -89,3 +106,6 @@ if __name__ == '__main__':
 
     print("Diameter of tree:")
     print(tree.diameter(tree))
+
+    print("BF traversal")
+    tree.breadth_first_traversal(tree)
