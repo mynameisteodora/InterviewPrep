@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07e8b056-0721-41f9-a285-b57cd5032d70" name="Default Changelist" comment="j">
+      <change afterPath="$PROJECT_DIR$/Arrays/Problems/CheckPermutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/Problems/HasAllUniqueCharacters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/Problems/URLify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heaps/BinaryHeap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heaps/MaxHeap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/InterviewPrep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/InterviewPrep.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/BinaryTrees/TreeWithNodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/BinaryTrees/TreeWithNodes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +60,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TreeWithNodes">
-    <configuration name="BinaryTreeImplementation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.BinaryHeap">
+    <configuration name="BinaryHeap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="InterviewPrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,12 +69,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trees/BinaryTrees" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Heaps" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/BinaryTrees/TreeAsList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Heaps/BinaryHeap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,7 +83,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BubbleSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="CheckPermutation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="InterviewPrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,12 +91,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sorting/BubbleSort" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Arrays/Problems" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorting/BubbleSort/BubbleSort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arrays/Problems/CheckPermutation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MergeSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="HasAllUniqueCharacters" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="InterviewPrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,34 +113,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sorting/MergeSort" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Arrays/Problems" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorting/MergeSort/MergeSort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SelectionSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="InterviewPrep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sorting/SelectionSort" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorting/SelectionSort/SelectionSort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arrays/Problems/HasAllUniqueCharacters.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,6 +141,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/BinaryTrees/TreeWithNodes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="URLify" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="InterviewPrep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Arrays/Problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arrays/Problems/URLify.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BinaryHeap" />
+        <item itemvalue="Python.CheckPermutation" />
+        <item itemvalue="Python.URLify" />
+        <item itemvalue="Python.HasAllUniqueCharacters" />
         <item itemvalue="Python.TreeWithNodes" />
-        <item itemvalue="Python.BinaryTreeImplementation" />
-        <item itemvalue="Python.SelectionSort" />
-        <item itemvalue="Python.MergeSort" />
-        <item itemvalue="Python.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +214,9 @@
       <option name="presentableId" value="Default" />
       <updated>1565519647300</updated>
       <workItem from="1565519655616" duration="4373000" />
-      <workItem from="1567460346206" duration="430000" />
+      <workItem from="1567460346206" duration="788000" />
+      <workItem from="1568398118928" duration="2549000" />
+      <workItem from="1570974326628" duration="2229000" />
     </task>
     <servers />
   </component>
@@ -230,8 +237,12 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/InterviewPrep$HasAllUniqueCharacters.coverage" NAME="HasAllUniqueCharacters Coverage Results" MODIFIED="1568399543117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$CheckPermutation.coverage" NAME="CheckPermutation Coverage Results" MODIFIED="1570975342238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$URLify.coverage" NAME="URLify Coverage Results" MODIFIED="1568401151728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
     <SUITE FILE_PATH="coverage/InterviewPrep$ImplementationTest.coverage" NAME="ImplementationTest Coverage Results" MODIFIED="1565530313423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Implementation" />
     <SUITE FILE_PATH="coverage/InterviewPrep$TreeWithNodes.coverage" NAME="TreeWithNodes Coverage Results" MODIFIED="1567460810038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trees/BinaryTrees" />
     <SUITE FILE_PATH="coverage/InterviewPrep$FindPairWithGivenSum.coverage" NAME="FindPairWithGivenSum Coverage Results" MODIFIED="1565550448291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$BinaryHeap.coverage" NAME="BinaryHeap Coverage Results" MODIFIED="1570975509640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Heaps" />
   </component>
 </project>
