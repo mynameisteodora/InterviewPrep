@@ -49,6 +49,12 @@ class BinaryTree:
             print(tree.getRootVal())
             self.traversal_inorder(tree.getRightChild())
 
+    def traversal_postorder(self, tree):
+        if tree:
+            self.traversal_postorder(tree.getLeftChild())
+            self.traversal_postorder(tree.getRightChild())
+            print(tree.getRootVal())
+
     def height(self, tree):
         if tree is None:
             return 0
@@ -85,27 +91,55 @@ class BinaryTree:
 
 
 if __name__ == '__main__':
-    tree = BinaryTree('a')
-    tree.insertLeft('b')
-    tree.insertRight('c')
-    b = tree.getLeftChild()
-    b.insertRight('d')
-    c = tree.getRightChild()
-    c.insertLeft('e')
-    c.insertRight('f')
-    print("The rightmost node is: ", tree.getRightChild().getRightChild().getRootVal())
+    tree = BinaryTree('9')
+    tree.insertLeft('1')
+    tree.insertRight('u')
+    b1 = tree.getLeftChild()
+    b1.insertLeft('h')
+    b1.insertRight('n')
+    h = b1.getLeftChild()
+    h.insertLeft('c')
+    h.insertRight('t')
+    c = h.getLeftChild()
+    c.insertRight('e')
+    t = h.getRightChild()
+    t.insertLeft('1')
 
+    u = tree.getRightChild()
+    u.insertLeft('/')
+    u.insertRight('d')
+
+    backsh = u.getLeftChild()
+    backsh.insertLeft('o')
+    backsh.insertRight('.')
+
+    o = backsh.getLeftChild()
+    o.insertLeft('o')
+    o.insertRight('f')
+
+    d = u.getRightChild()
+    d.insertLeft('n')
+    d.insertRight('i')
+
+    i2 = d.getRightChild()
+    i2.insertRight('f')
+
+    print("Postorder traversal")
+    tree.traversal_postorder(tree)
+
+    # print("The rightmost node is: ", tree.getRightChild().getRightChild().getRootVal())
+    #
     print("Preorder traversal:")
     tree.traversal_preorder(tree)
-
+    #
     print("Inorder traversal:")
     tree.traversal_inorder(tree)
-
-    print("Height of tree:")
-    print(tree.height(tree))
-
-    print("Diameter of tree:")
-    print(tree.diameter(tree))
-
-    print("BF traversal")
-    tree.breadth_first_traversal(tree)
+    #
+    # print("Height of tree:")
+    # print(tree.height(tree))
+    #
+    # print("Diameter of tree:")
+    # print(tree.diameter(tree))
+    #
+    # print("BF traversal")
+    # tree.breadth_first_traversal(tree)
