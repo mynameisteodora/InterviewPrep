@@ -11,7 +11,13 @@ class BinaryTree:
 
     def insertLeft(self, newNode):
         if self.leftChild is None:
-            self.leftChild = BinaryTree(newNode)
+            if isinstance(newNode,BinaryTree):
+                self.leftChild = newNode
+            else:
+                self.leftChild = BinaryTree(newNode)
+        elif isinstance(newNode, BinaryTree):
+            newNode.leftChild = self.leftChild
+            self.leftChild = newNode
         else:
             t = BinaryTree(newNode)
             t.leftChild = self.leftChild
@@ -19,7 +25,13 @@ class BinaryTree:
 
     def insertRight(self, newNode):
         if self.rightChild is None:
-            self.rightChild = BinaryTree(newNode)
+            if isinstance(newNode, BinaryTree):
+                self.rightChild = newNode
+            else:
+                self.rightChild = BinaryTree(newNode)
+        elif isinstance(newNode, BinaryTree):
+            newNode.rightChild = self.rightChild
+            self.rightChild = newNode
         else:
             t = BinaryTree(newNode)
             t.rightChild = self.rightChild

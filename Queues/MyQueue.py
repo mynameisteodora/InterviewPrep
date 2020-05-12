@@ -1,4 +1,4 @@
-class Queue:
+class MyQueue:
 
     def __init__(self):
         self.length = 0
@@ -29,7 +29,7 @@ class Queue:
         return self.length
 
 if __name__ == '__main__':
-    q = Queue()
+    q = MyQueue()
     q.enqueue(5)
     q.enqueue(10)
     q.enqueue(140)

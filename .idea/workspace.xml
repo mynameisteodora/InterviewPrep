@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07e8b056-0721-41f9-a285-b57cd5032d70" name="Default Changelist" comment="j">
-      <change afterPath="$PROJECT_DIR$/Graphs/Graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/SinglyLinkedList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Queue/Queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sorting/QuickSort/QuickSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/Problems/DiagonalMatrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/Problems/SpiralMatrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP/Fibonacci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP/LongestSubsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP/Wines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/BinaryTrees/MinimalTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/InterviewPrep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/InterviewPrep.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/Graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue/Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Queues/MyQueue.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Trees/BinaryTrees/TreeWithNodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/BinaryTrees/TreeWithNodes.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +33,11 @@
   </component>
   <component name="ProjectId" id="1PH8Qe9q9CaqWidZoN595VHSaIo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -46,20 +56,8 @@
       <recent name="$PROJECT_DIR$/Arrays" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.Graph">
-    <configuration name="Graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.SpiralMatrix">
+    <configuration name="DiagonalMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewPrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,12 +65,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graphs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Arrays/Problems" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graphs/Graph.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arrays/Problems/DiagonalMatrix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="InterviewPrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,12 +87,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Queue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Queue/Queue.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/Fibonacci.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="QuickSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LongestSubsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="InterviewPrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,12 +109,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sorting/QuickSort" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorting/QuickSort/QuickSort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/LongestSubsequence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SinglyLinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SpiralMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewPrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,12 +131,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinkedList" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Arrays/Problems" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinkedList/SinglyLinkedList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arrays/Problems/SpiralMatrix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TreeWithNodes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Wines" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="InterviewPrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,12 +153,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trees/BinaryTrees" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/BinaryTrees/TreeWithNodes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/Wines.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Graph" />
-        <item itemvalue="Python.SinglyLinkedList" />
-        <item itemvalue="Python.Queue" />
-        <item itemvalue="Python.QuickSort" />
-        <item itemvalue="Python.TreeWithNodes" />
+        <item itemvalue="Python.SpiralMatrix" />
+        <item itemvalue="Python.DiagonalMatrix" />
+        <item itemvalue="Python.Wines" />
+        <item itemvalue="Python.Fibonacci" />
+        <item itemvalue="Python.LongestSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +218,15 @@
       <workItem from="1571165786696" duration="228000" />
       <workItem from="1573232112606" duration="2356000" />
       <workItem from="1574760604738" duration="607000" />
-      <workItem from="1574762623547" duration="8422000" />
+      <workItem from="1574762623547" duration="8472000" />
+      <workItem from="1574940560740" duration="275000" />
+      <workItem from="1575047535697" duration="26000" />
+      <workItem from="1575366842159" duration="540000" />
+      <workItem from="1576084722449" duration="2562000" />
+      <workItem from="1578486017798" duration="4611000" />
+      <workItem from="1578934039063" duration="59000" />
+      <workItem from="1589208668714" duration="1090000" />
+      <workItem from="1589213240092" duration="12294000" />
     </task>
     <servers />
   </component>
@@ -240,17 +246,131 @@
       </map>
     </option>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="804" y="0" width="476" height="800" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589213201734">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="804" y="0" width="476" height="800" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589213201734" />
+    <state width="1238" height="186" key="GridCell.Tab.0.bottom" timestamp="1589292927475">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="186" key="GridCell.Tab.0.bottom/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589292927475" />
+    <state width="1238" height="383" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1589233247484" />
+    <state width="1238" height="186" key="GridCell.Tab.0.center" timestamp="1589292927473">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="186" key="GridCell.Tab.0.center/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589292927473" />
+    <state width="1238" height="383" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1589233247483" />
+    <state width="1238" height="186" key="GridCell.Tab.0.left" timestamp="1589292927472">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="186" key="GridCell.Tab.0.left/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589292927472" />
+    <state width="1238" height="383" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1589233247483" />
+    <state width="1238" height="186" key="GridCell.Tab.0.right" timestamp="1589292927474">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="186" key="GridCell.Tab.0.right/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589292927474" />
+    <state width="1238" height="383" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1589233247484" />
+    <state width="1238" height="177" key="GridCell.Tab.1.bottom" timestamp="1589292905228">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="177" key="GridCell.Tab.1.bottom/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589292905228" />
+    <state width="1238" height="383" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1589233248594" />
+    <state width="1238" height="177" key="GridCell.Tab.1.center" timestamp="1589292905225">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="177" key="GridCell.Tab.1.center/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589292905225" />
+    <state width="1238" height="383" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1589233248593" />
+    <state width="1238" height="177" key="GridCell.Tab.1.left" timestamp="1589292905224">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="177" key="GridCell.Tab.1.left/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589292905224" />
+    <state width="1238" height="383" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1589233248592" />
+    <state width="1238" height="177" key="GridCell.Tab.1.right" timestamp="1589292905227">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="177" key="GridCell.Tab.1.right/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589292905227" />
+    <state width="1238" height="383" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1589233248594" />
+    <state x="138" y="44" key="SettingsEditor" timestamp="1589209101502">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="138" y="44" key="SettingsEditor/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589209101502" />
+    <state x="309" y="76" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589217171017">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="309" y="76" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589217171017" />
+    <state x="182" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1589215257896">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="182" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589215257895" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1589286745474">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589286745474" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/DiagonalMatrix.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/DiagonalMatrix.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/DiagonalMatrix.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/SpiralMatrix.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/SpiralMatrix.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/SpiralMatrix.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/SpiralMatrix.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/SpiralMatrix.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/InterviewPrep$SpiralMatrix.coverage" NAME="SpiralMatrix Coverage Results" MODIFIED="1589292927464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
     <SUITE FILE_PATH="coverage/InterviewPrep$QuickSort.coverage" NAME="QuickSort Coverage Results" MODIFIED="1573237612765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sorting/QuickSort" />
-    <SUITE FILE_PATH="coverage/InterviewPrep$HasAllUniqueCharacters.coverage" NAME="HasAllUniqueCharacters Coverage Results" MODIFIED="1568399543117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$MinimalTree.coverage" NAME="MinimalTree Coverage Results" MODIFIED="1576087307374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trees/BinaryTrees" />
     <SUITE FILE_PATH="coverage/InterviewPrep$SinglyLinkedList.coverage" NAME="SinglyLinkedList Coverage Results" MODIFIED="1574776081064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinkedList" />
-    <SUITE FILE_PATH="coverage/InterviewPrep$Graph.coverage" NAME="Graph Coverage Results" MODIFIED="1574778586492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graphs" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$DiagonalMatrix.coverage" NAME="DiagonalMatrix Coverage Results" MODIFIED="1589217491141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$LongestSubsequence.coverage" NAME="LongestSubsequence Coverage Results" MODIFIED="1578490569297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$Wines.coverage" NAME="Wines Coverage Results" MODIFIED="1578494617585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$Graph.coverage" NAME="Graph Coverage Results" MODIFIED="1576085131234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graphs" />
     <SUITE FILE_PATH="coverage/InterviewPrep$CheckPermutation.coverage" NAME="CheckPermutation Coverage Results" MODIFIED="1570975342238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
-    <SUITE FILE_PATH="coverage/InterviewPrep$URLify.coverage" NAME="URLify Coverage Results" MODIFIED="1568401151728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
     <SUITE FILE_PATH="coverage/InterviewPrep$ImplementationTest.coverage" NAME="ImplementationTest Coverage Results" MODIFIED="1565530313423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Implementation" />
-    <SUITE FILE_PATH="coverage/InterviewPrep$TreeWithNodes.coverage" NAME="TreeWithNodes Coverage Results" MODIFIED="1573237417791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trees/BinaryTrees" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$Fibonacci.coverage" NAME="Fibonacci Coverage Results" MODIFIED="1578491316969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
     <SUITE FILE_PATH="coverage/InterviewPrep$FindPairWithGivenSum.coverage" NAME="FindPairWithGivenSum Coverage Results" MODIFIED="1565550448291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$URLify.coverage" NAME="URLify Coverage Results" MODIFIED="1568401151728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$HasAllUniqueCharacters.coverage" NAME="HasAllUniqueCharacters Coverage Results" MODIFIED="1568399543117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
     <SUITE FILE_PATH="coverage/InterviewPrep$BinaryHeap.coverage" NAME="BinaryHeap Coverage Results" MODIFIED="1570975509640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Heaps" />
     <SUITE FILE_PATH="coverage/InterviewPrep$Queue.coverage" NAME="Queue Coverage Results" MODIFIED="1574771126833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Queue" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$TreeWithNodes.coverage" NAME="TreeWithNodes Coverage Results" MODIFIED="1573237417791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trees/BinaryTrees" />
   </component>
 </project>

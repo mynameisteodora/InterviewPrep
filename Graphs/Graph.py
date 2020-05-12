@@ -1,4 +1,4 @@
-from Queue import Queue
+from Queues import MyQueue
 
 class Vertex:
 
@@ -88,7 +88,7 @@ class Graph:
 def bfs(graph, start):
     start.set_distance(0)
     start.set_pred(None)
-    vertex_queue = Queue.Queue()
+    vertex_queue = MyQueue.MyQueue()
     vertex_queue.enqueue(start)
 
     while(vertex_queue.size() > 0):
@@ -110,7 +110,7 @@ def bfs(graph, start):
 def bfs_search(graph, start, target):
     start.set_distance(0)
     start.set_pred(None)
-    vertex_queue = Queue.Queue()
+    vertex_queue = MyQueue.MyQueue()
     vertex_queue.enqueue(start)
 
     while(vertex_queue.size() > 0):
@@ -142,7 +142,22 @@ def dfs(graph, start):
         if nbr.get_color() != 'black':
             dfs(graph, nbr)
 
+def dfs_search(graph, start, target):
+    start.set_distance(0)
+    start.set_color('black')
 
+
+    if start == target:
+        return True
+
+    else:
+        for nbr in start.get_connections():
+            if nbr.get_color() != 'black':
+                ans = dfs_search(graph, nbr, target)
+                if ans:
+                    return True
+
+    return False
 
 if __name__ == '__main__':
     graph = Graph()
@@ -161,4 +176,5 @@ if __name__ == '__main__':
 
     # print(bfs_search(graph, v, target))
 
-    dfs(graph, v)
+    # dfs(graph, v)
+    print(dfs_search(graph, v, target))
