@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07e8b056-0721-41f9-a285-b57cd5032d70" name="Default Changelist" comment="j">
-      <change afterPath="$PROJECT_DIR$/Arrays/Problems/DiagonalMatrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays/Problems/SpiralMatrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DP/Fibonacci.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DP/LongestSubsequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DP/Wines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/BinaryTrees/MinimalTree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/InterviewPrep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/InterviewPrep.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/Problems/LongestChainOfOnes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/Problems/LongestCommonPrefix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/Problems/MinimumSizeSubarraySum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/Problems/RemoveDuplicatesInPlace.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphs/Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/Graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Queues/MyQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/BinaryTrees/TreeWithNodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/BinaryTrees/TreeWithNodes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/Problems/PascalTriangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/Problems/PascalTriangle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +50,8 @@
       <recent name="$PROJECT_DIR$/Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SpiralMatrix">
-    <configuration name="DiagonalMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.MinimumSizeSubarraySum">
+    <configuration name="LongestChainOfOnes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewPrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,7 +64,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arrays/Problems/DiagonalMatrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arrays/Problems/LongestChainOfOnes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,51 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="InterviewPrep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/Fibonacci.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LongestSubsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="InterviewPrep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/LongestSubsequence.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SpiralMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="LongestCommonPrefix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewPrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,7 +86,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arrays/Problems/SpiralMatrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arrays/Problems/LongestCommonPrefix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Wines" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MinimumSizeSubarraySum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewPrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,12 +103,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Arrays/Problems" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/Wines.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arrays/Problems/MinimumSizeSubarraySum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PascalTriangle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InterviewPrep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Arrays/Problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arrays/Problems/PascalTriangle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RemoveDuplicatesInPlace" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InterviewPrep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Arrays/Problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arrays/Problems/RemoveDuplicatesInPlace.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SpiralMatrix" />
-        <item itemvalue="Python.DiagonalMatrix" />
-        <item itemvalue="Python.Wines" />
-        <item itemvalue="Python.Fibonacci" />
-        <item itemvalue="Python.LongestSubsequence" />
+        <item itemvalue="Python.MinimumSizeSubarraySum" />
+        <item itemvalue="Python.LongestChainOfOnes" />
+        <item itemvalue="Python.RemoveDuplicatesInPlace" />
+        <item itemvalue="Python.LongestCommonPrefix" />
+        <item itemvalue="Python.PascalTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +220,9 @@
       <workItem from="1578486017798" duration="4611000" />
       <workItem from="1578934039063" duration="59000" />
       <workItem from="1589208668714" duration="1090000" />
-      <workItem from="1589213240092" duration="12294000" />
+      <workItem from="1589213240092" duration="16331000" />
+      <workItem from="1589373933016" duration="3971000" />
+      <workItem from="1589634042328" duration="2996000" />
     </task>
     <servers />
   </component>
@@ -247,50 +243,62 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589634235838">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589634235838" />
     <state x="804" y="0" width="476" height="800" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589213201734">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="804" y="0" width="476" height="800" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589213201734" />
-    <state width="1238" height="186" key="GridCell.Tab.0.bottom" timestamp="1589292927475">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="246" key="GridCell.Tab.0.bottom" timestamp="1589409486992">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="186" key="GridCell.Tab.0.bottom/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589292927475" />
-    <state width="1238" height="383" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1589233247484" />
-    <state width="1238" height="186" key="GridCell.Tab.0.center" timestamp="1589292927473">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="186" key="GridCell.Tab.0.bottom/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589395748692" />
+    <state width="1238" height="246" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1589374311789" />
+    <state width="1238" height="246" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1589409486992" />
+    <state width="1238" height="246" key="GridCell.Tab.0.center" timestamp="1589409486991">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="186" key="GridCell.Tab.0.center/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589292927473" />
-    <state width="1238" height="383" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1589233247483" />
-    <state width="1238" height="186" key="GridCell.Tab.0.left" timestamp="1589292927472">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="186" key="GridCell.Tab.0.center/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589395748690" />
+    <state width="1238" height="246" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1589374311787" />
+    <state width="1238" height="246" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1589409486991" />
+    <state width="1238" height="246" key="GridCell.Tab.0.left" timestamp="1589409486990">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="186" key="GridCell.Tab.0.left/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589292927472" />
-    <state width="1238" height="383" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1589233247483" />
-    <state width="1238" height="186" key="GridCell.Tab.0.right" timestamp="1589292927474">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="186" key="GridCell.Tab.0.left/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589395748689" />
+    <state width="1238" height="246" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1589374311787" />
+    <state width="1238" height="246" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1589409486990" />
+    <state width="1238" height="246" key="GridCell.Tab.0.right" timestamp="1589409486992">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="186" key="GridCell.Tab.0.right/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589292927474" />
-    <state width="1238" height="383" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1589233247484" />
-    <state width="1238" height="177" key="GridCell.Tab.1.bottom" timestamp="1589292905228">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="186" key="GridCell.Tab.0.right/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589395748691" />
+    <state width="1238" height="246" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1589374311788" />
+    <state width="1238" height="246" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1589409486992" />
+    <state width="1238" height="246" key="GridCell.Tab.1.bottom" timestamp="1589409486995">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="177" key="GridCell.Tab.1.bottom/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589292905228" />
-    <state width="1238" height="383" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1589233248594" />
-    <state width="1238" height="177" key="GridCell.Tab.1.center" timestamp="1589292905225">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="246" key="GridCell.Tab.1.bottom/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589395217845" />
+    <state width="1238" height="246" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1589374313097" />
+    <state width="1238" height="246" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1589409486995" />
+    <state width="1238" height="246" key="GridCell.Tab.1.center" timestamp="1589409486993">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="177" key="GridCell.Tab.1.center/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589292905225" />
-    <state width="1238" height="383" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1589233248593" />
-    <state width="1238" height="177" key="GridCell.Tab.1.left" timestamp="1589292905224">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="246" key="GridCell.Tab.1.center/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589395217843" />
+    <state width="1238" height="246" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1589374313096" />
+    <state width="1238" height="246" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1589409486993" />
+    <state width="1238" height="246" key="GridCell.Tab.1.left" timestamp="1589409486993">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="177" key="GridCell.Tab.1.left/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589292905224" />
-    <state width="1238" height="383" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1589233248592" />
-    <state width="1238" height="177" key="GridCell.Tab.1.right" timestamp="1589292905227">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="246" key="GridCell.Tab.1.left/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589395217842" />
+    <state width="1238" height="246" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1589374313096" />
+    <state width="1238" height="246" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1589409486993" />
+    <state width="1238" height="246" key="GridCell.Tab.1.right" timestamp="1589409486995">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="177" key="GridCell.Tab.1.right/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589292905227" />
-    <state width="1238" height="383" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1589233248594" />
+    <state width="1238" height="246" key="GridCell.Tab.1.right/0.0.1280.800/-237.-1080.1920.1080@0.0.1280.800" timestamp="1589395217844" />
+    <state width="1238" height="246" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1589374313097" />
+    <state width="1238" height="246" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1589409486995" />
     <state x="138" y="44" key="SettingsEditor" timestamp="1589209101502">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -328,49 +336,196 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Arrays/Problems/SpiralMatrix.py</url>
-          <line>49</line>
+          <line>43</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Arrays/Problems/SpiralMatrix.py</url>
-          <line>41</line>
+          <line>35</line>
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Arrays/Problems/SpiralMatrix.py</url>
-          <line>37</line>
+          <line>31</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Arrays/Problems/SpiralMatrix.py</url>
-          <line>33</line>
+          <line>26</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Arrays/Problems/SpiralMatrix.py</url>
-          <line>29</line>
+          <line>22</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/PascalTriangle.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/PascalTriangle.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/PascalTriangle.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/PascalTriangle.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/PascalTriangle.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/PascalTriangle.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/PascalTriangle.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/PascalTriangle.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/LongestCommonPrefix.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/LongestCommonPrefix.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/LongestCommonPrefix.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/LongestCommonPrefix.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/LongestCommonPrefix.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/LongestCommonPrefix.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/RemoveDuplicatesInPlace.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/RemoveDuplicatesInPlace.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/RemoveDuplicatesInPlace.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/RemoveDuplicatesInPlace.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/RemoveDuplicatesInPlace.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/RemoveDuplicatesInPlace.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/LongestChainOfOnes.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/LongestChainOfOnes.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/LongestChainOfOnes.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/LongestChainOfOnes.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/LongestChainOfOnes.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/LongestChainOfOnes.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Arrays/Problems/LongestChainOfOnes.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/InterviewPrep$SpiralMatrix.coverage" NAME="SpiralMatrix Coverage Results" MODIFIED="1589292927464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$SpiralMatrix.coverage" NAME="SpiralMatrix Coverage Results" MODIFIED="1589293505763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$LongestCommonPrefix.coverage" NAME="LongestCommonPrefix Coverage Results" MODIFIED="1589297214486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
     <SUITE FILE_PATH="coverage/InterviewPrep$QuickSort.coverage" NAME="QuickSort Coverage Results" MODIFIED="1573237612765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sorting/QuickSort" />
     <SUITE FILE_PATH="coverage/InterviewPrep$MinimalTree.coverage" NAME="MinimalTree Coverage Results" MODIFIED="1576087307374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trees/BinaryTrees" />
     <SUITE FILE_PATH="coverage/InterviewPrep$SinglyLinkedList.coverage" NAME="SinglyLinkedList Coverage Results" MODIFIED="1574776081064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinkedList" />
     <SUITE FILE_PATH="coverage/InterviewPrep$DiagonalMatrix.coverage" NAME="DiagonalMatrix Coverage Results" MODIFIED="1589217491141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$PascalTriangle.coverage" NAME="PascalTriangle Coverage Results" MODIFIED="1589293579367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$MinimumSizeSubarraySum.coverage" NAME="MinimumSizeSubarraySum Coverage Results" MODIFIED="1589395748681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
     <SUITE FILE_PATH="coverage/InterviewPrep$LongestSubsequence.coverage" NAME="LongestSubsequence Coverage Results" MODIFIED="1578490569297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
     <SUITE FILE_PATH="coverage/InterviewPrep$Wines.coverage" NAME="Wines Coverage Results" MODIFIED="1578494617585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
     <SUITE FILE_PATH="coverage/InterviewPrep$Graph.coverage" NAME="Graph Coverage Results" MODIFIED="1576085131234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graphs" />
     <SUITE FILE_PATH="coverage/InterviewPrep$CheckPermutation.coverage" NAME="CheckPermutation Coverage Results" MODIFIED="1570975342238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
     <SUITE FILE_PATH="coverage/InterviewPrep$ImplementationTest.coverage" NAME="ImplementationTest Coverage Results" MODIFIED="1565530313423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Implementation" />
     <SUITE FILE_PATH="coverage/InterviewPrep$Fibonacci.coverage" NAME="Fibonacci Coverage Results" MODIFIED="1578491316969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$LongestChainOfOnes.coverage" NAME="LongestChainOfOnes Coverage Results" MODIFIED="1589374311584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
     <SUITE FILE_PATH="coverage/InterviewPrep$FindPairWithGivenSum.coverage" NAME="FindPairWithGivenSum Coverage Results" MODIFIED="1565550448291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
     <SUITE FILE_PATH="coverage/InterviewPrep$URLify.coverage" NAME="URLify Coverage Results" MODIFIED="1568401151728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
     <SUITE FILE_PATH="coverage/InterviewPrep$HasAllUniqueCharacters.coverage" NAME="HasAllUniqueCharacters Coverage Results" MODIFIED="1568399543117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
     <SUITE FILE_PATH="coverage/InterviewPrep$BinaryHeap.coverage" NAME="BinaryHeap Coverage Results" MODIFIED="1570975509640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Heaps" />
     <SUITE FILE_PATH="coverage/InterviewPrep$Queue.coverage" NAME="Queue Coverage Results" MODIFIED="1574771126833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Queue" />
     <SUITE FILE_PATH="coverage/InterviewPrep$TreeWithNodes.coverage" NAME="TreeWithNodes Coverage Results" MODIFIED="1573237417791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trees/BinaryTrees" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$RemoveDuplicatesInPlace.coverage" NAME="RemoveDuplicatesInPlace Coverage Results" MODIFIED="1589302395542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays/Problems" />
   </component>
 </project>
